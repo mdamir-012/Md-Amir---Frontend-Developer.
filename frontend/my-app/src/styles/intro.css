@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap");
+
+.main {
+  background-color: #000;
+  position: relative;
+}
+.content_part > p {
+  /* Introduction */
+  /* border:1px solid blue; */
+  position: absolute;
+  width: 389px;
+  height: 52px;
+  left: 163px;
+  top: 677px;
+
+  font-family: "Shojumaru";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 119%;
+  /* or 52px */
+
+  color: #ed0137;
+}
+
+.content_part p:nth-of-type(2) {
+  /* We've all been in the mud once, and now we've decided to fight it out. Pay tribute to those pioneers of WEB3 and the warriors who dedicated their love to the blockchain. Save the lucky ones alive, join us to save the future! Our mission is to empower everyone to share wealth and succeed. read more... */
+  position: absolute;
+  width: 587px;
+  height: 207px;
+  left: 166px;
+  top: 753px;
+
+  font-family: "ZCOOL KuaiLe";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 119%;
+  /* or 29px */
+
+  /* color: #FFFCFD; */
+  color: grey;
+}
+
+.content_part button {
+  /* Frame 1823 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17.0323px 21.2903px;
+  gap: 11.35px;
+
+  position: absolute;
+  width: 178.94px;
+  height: 54.06px;
+  left: 166px;
+  top: 1048px;
+
+  background: linear-gradient(93.73deg, #d51b46 10.19%, #ee6910 98.19%);
+  border-radius: 21.9192px;
+
+}
+
+.content_part button span{
+    /* Documents */
+
+width: 109px;
+height: 20px;
+
+font-family: 'ZCOOL KuaiLe';
+font-style: normal;
+font-weight: 400;
+font-size: 20.03px;
+line-height: 20px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.intro_logo {
+  /* Brick_Matrix_Generate_a_logo_concept_that_visually_represents_t_9df3d56e-2aaa-42b8-add9-01ba1b656499 2 */
+
+  position: absolute;
+  width: 795px;
+  height: 795px;
+  left: 723px;
+  top: 511px;
+
+  /* background: url(.png); */
+}
