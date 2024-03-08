@@ -34,8 +34,11 @@ createWeb3Modal({
 export const Wallet = () => {
   const { open } = useWeb3Modal();
   return (
-    <button className="wallet_connect text-white font-poppins font-semibold  font-semibold lg:py-2 lg:px-4 ml-10  py-1 px-1 rounded-full shadow mt-10 bg-gradient-button">
+    <button className="text-white font-poppins font-semibold  font-semibold lg:py-2 lg:px-4 ml-10  py-1 px-1 rounded-full shadow mt-10 bg-gradient-button" onClick={() => open()}>
+      
       Connect Wallet
     </button>
   );
 };
+
+
