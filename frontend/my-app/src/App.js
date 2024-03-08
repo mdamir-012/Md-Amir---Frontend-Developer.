@@ -1,14 +1,18 @@
 import "./App.css";
-import IdoEvent from "./Components/IdoEvent";
-import Intro from "./Components/Intro";
+import IDOeventSection from "./Components/IDOeventSection";
 import Navbar from "./Components/Navbar";
+import  IntroductionSection  from "./Components/IntroductionSection";
+import  TokenSection  from "./Components/TokenSection";
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar /> 
-      <Intro />
-      <IdoEvent/>
+      <Navbar />
+      <IntroductionSection />
+      <IDOeventSection />
+      <TokenSection />
+      
     </div>
   );
 }

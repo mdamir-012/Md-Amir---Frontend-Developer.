@@ -1,0 +1,15 @@
+.parent_div{
+    /* Rectangle 21 */
+
+position: absolute;
+width: 100%;
+height: 716px;
+left: 0px;
+top: 3061px;
+
+background: url(../assets/roadmap_bg.png);
+background-color:black;
+/* opacity: 0.71; */
+
+
+}
