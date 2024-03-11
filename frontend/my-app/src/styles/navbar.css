@@ -3,7 +3,7 @@
 
   background: url(../assets/Rectangle18.png);
 }
- .navbar_links {
+ /* .navbar_links {
  
   display: flex;
   flex-direction: row;
@@ -21,10 +21,10 @@
 
   background: #191818;
   border-radius: 20px;
-} 
-
+}  */
+/* 
 .nav_logo {
-  /* Logo Savior red copy 1 */
+ 
 
   position: absolute;
   width: 106px;
@@ -34,7 +34,7 @@
 }
 
 .sviour_text {
-  /* Saviour */
+ 
 
   position: absolute;
   width: 122px;
@@ -47,11 +47,11 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 32px;
-  /* identical to box height */
+  
   text-align: center;
 
   color: #ffffff;
-}
+} */
 
 /* .wallet_btn {
  
@@ -84,3 +84,27 @@
 
   color: #ffffff;
 } */
+
+
+/* 
+@media (max-width: 767px) {
+  
+  
+  
+  .nav_logo {
+    width: 80px;
+    height: 88px;
+    left: 20px;
+    top: 10px;
+  }
+  
+  .sviour_text {
+    width: 100px;
+    height: 24px;
+    left: 130px;
+    top: 36px;
+    font-size: 24px;
+  }
+} */
+
+

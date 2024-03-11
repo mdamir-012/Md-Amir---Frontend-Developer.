@@ -89,7 +89,7 @@ const TokenSection = () => {
         <h1 className="font-Shojumaru text-heading text-2xl text-center">
           ROAD MAP
         </h1>
-        <div className="flex justify-center items-center mt-5 p-5">
+        <div className="flex justify-center items-center mt-5 p-5 gap-10">
           <img src={tokeCard1} alt="" className="w-[10rem]" />
           <img src={tokenCard2} alt="" className="w-[10rem]" />
         </div>

@@ -36,7 +36,7 @@ export const Wallet = () => {
   const { open } = useWeb3Modal();
   return (
     <div className="wallet_btn ">
-      <button className=" font-semibold lg:py-2 lg:px-4  py-1 px-1 rounded-full shadow  mt-20 bg-gradient-button  font-poppins  text-xs md:text-sm lg:text-base leading-18 text-white" onClick={() => open()}>
+      <button className=" font-semibold lg:py-2 lg:px-4  py-1 px-1 rounded-full shadow ml-10  mt-20 bg-gradient-button  font-poppins  text-xs md:text-sm lg:text-base leading-18 text-white" onClick={() => open()}>
         Connect Wallet
       </button>
     </div>

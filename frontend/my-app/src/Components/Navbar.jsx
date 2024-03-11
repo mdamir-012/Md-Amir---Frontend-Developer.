@@ -14,6 +14,7 @@ import "../styles/navbar.css"
   };
 
   const BgStyle = {
+    
     height: "45rem",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
@@ -37,14 +38,14 @@ import "../styles/navbar.css"
                   )}
                 </button>
 
-                <div className="flex items-center ">
-                  <img className="nav_logo w-13" src={logo} alt="Saviour Logo" />
-                  <span className="sviour_text text-white text-lg font-zlogo ">
+                <div className="flex items-center mt-20">
+                  <img className="nav_logo w-13 mt-10"  src={logo} alt="Saviour Logo" />
+                  <span className="text-white text-lg font-zlogo mr-2  ">
                     Saviour
                   </span>
                 </div>
               </div>
-              <div className="navbar_links ">
+              <div className=" hidden md:flex md:items-center md:space-x-5 flex-grow justify-center bg-black  mt-20 rounded-full font-2xl   ">
                 <Link
                   to="/home"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-zcool"
@@ -79,7 +80,7 @@ import "../styles/navbar.css"
               <Wallet/>
             </div>
           </div>
-          <div className={`${Open ? "block" : "hidden"} md:hidden`}>
+          <div className={`${Open ? "block" : "hidden"} md:hidden sm:hidden`}>
             <div className="px-2 pt-2 pb-3 sm:px-3 ">
               <Link
                 to=""
@@ -114,6 +115,7 @@ import "../styles/navbar.css"
             </div>
             <div className="px-2 pt-2 pb-3 sm:px-3"></div>
           </div>
+          
         </nav>
         <div className="nav_main_text flex justify-center items-center">
           <h1 className="text-center text-2xl lg:text-4xl text-white font-Shojumaru leading-tight lg:leading-tight lg:mb-4 sm:mt-10 sm:shadow-lg lg:shadow-none lg:mt-96 mt-20">
