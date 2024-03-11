@@ -15,8 +15,8 @@ import "../styles/idoevent.css";
     <>
       <div className="ido_container bg-black" style={Ido_style}>
         <div className="">
-          <div className="font-Shojumaru text-heading text-2xl text-center ">
-            <h1>IDO IN OUR IDO EVENT!</h1>
+          <div className="font-Shojumaru text-heading text-2xl text-center relative w-823 h-54 left-1/2 transform -translate-x-1/2 top-1272  font-normal text-4xl leading-54 text-center text-red-600">
+            <h1>Participate in our IDO Event!</h1>
           </div>
 
           <div className="container mx-auto">
@@ -68,7 +68,7 @@ import "../styles/idoevent.css";
 
                 <div className="flex flex-col justify-center items-center mt-3 sm:mt-10 mb-10">
                   <button className="bg-gradient-button p-3 rounded-full flex items-center mb-4">
-                    <h1 className="font-zcool">Connect Wallet</h1>
+                    <h1 className="font-zcool    font-normal text-xs leading-14 text-white flex-none order-0 flex-grow-0">Connect Wallet</h1>
                   </button>
                   <h1 className="font-Shojumaru text-heading text-2xl text-center mb-4">
                     BECOME AN AFFILIATE & EARN <br /> 7% AS COMMISSION!
@@ -77,9 +77,9 @@ import "../styles/idoevent.css";
                     <input
                       type="text"
                       placeholder="Generate a unique referral link" 
-                      className="bg-black border border-2 border-BorderColor px-5 py-2 mt-2 font-zcool text-BorderColor rounded-full px-10 w-80 lg:w-96"
+                      className="bg-black  border-2 border-BorderColor px-5 py-2 mt-2 font-zcool text-BorderColor rounded-full px-10 w-80 lg:w-96"
                     />
-                    <button className="absolute top-0 right-0 bg-gradient-button px-4 py-2 rounded-full mt-2.5 mr-0.5">
+                    <button className="absolute top-0 right-0 bg-gradient-button px-4 py-2 rounded-full mt-2.5 mr-0.5 font-zcool font-normal text-xs  text-white ">
                       Generate{" "}
                       <img
                         src={copidImage}
@@ -141,10 +141,10 @@ import "../styles/idoevent.css";
                       className="bg-black border border-2 border-BorderColor px-5 py-2 mt-3 font-zcool text-BorderColor rounded-full mt-3"
                     />
                     <div className="gap-3 flex justify-center mt-5">
-                      <button className="bg-gradient-button px-5 py-2 rounded-md">
+                      <button className="bg-gradient-button px-5 py-2 rounded-md w-31 h-17 font-zcool font-normal text-xs leading-17 text-white flex-none order-0 flex-grow-0 ">
                         Buy
                       </button>
-                      <button className="bg-gradient-button px-3 py-2 rounded-md">
+                      <button className="bg-gradient-button px-3 py-2 rounded-md w-89 h-17 font-zcool font-normal text-xs leading-17 text-white flex-none order-0 flex-grow-0">
                         Claim Drop
                       </button>
                     </div>

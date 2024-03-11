@@ -3,6 +3,7 @@ import { useWeb3Modal } from "@web3modal/wagmi/react";
 import { createWeb3Modal } from "@web3modal/wagmi/react";
 import { defaultWagmiConfig } from "@web3modal/wagmi/react/config";
 import { arbitrum, mainnet } from "wagmi/chains";
+import "../styles/navbar.css";
 
 const metadata = {
   name: "Web3Modal",
@@ -34,11 +35,10 @@ createWeb3Modal({
 export const Wallet = () => {
   const { open } = useWeb3Modal();
   return (
-    <button className="text-white font-poppins font-semibold  font-semibold lg:py-2 lg:px-4 ml-10  py-1 px-1 rounded-full shadow mt-10 bg-gradient-button" onClick={() => open()}>
-      
-      Connect Wallet
-    </button>
+    <div className="wallet_btn ">
+      <button className=" font-semibold lg:py-2 lg:px-4  py-1 px-1 rounded-full shadow  mt-20 bg-gradient-button  font-poppins  text-xs md:text-sm lg:text-base leading-18 text-white" onClick={() => open()}>
+        Connect Wallet
+      </button>
+    </div>
   );
 };
-
-

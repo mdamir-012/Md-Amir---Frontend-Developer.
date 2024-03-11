@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/LogoSavior-red.png";
 import { Wallet } from "./Wallet.tsx";
 import { FaBars, FaTimes } from "react-icons/fa";
+import "../styles/navbar.css"
 
 
  const Navbar = () => {
@@ -13,7 +14,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
   };
 
   const BgStyle = {
-    backgroundImage: `url(${`https://s3-alpha-sig.figma.com/img/894b/df6e/56b90bbef82ad188765f40d12a46caef?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DDdFYUddbSsGEf0QSGti5Cg7lidhL0R2bXjELhUwEV916o-VcdPwS4WGlXiVo9qRbeVI3Bzkd7UeRjP5H9AIK~2dP0Dgrk3NdfoH1J1y0hFrK~r2g67GPoeRFsfSacSshmfm8shplqeqcyN3yxsP6hS~--sP2BcGeipjELPJo80BHbFSoq1upwAdmGAFj3FJLzFnyzlP99VUPkeHEICy5Je4UrlDLGe9u6-lz8VNaqBNOam0v4G-uz6~yOZA4AB7U80FxFl9xKiNZorNk5fz9iSdHLJpBr3x06ROZHk~OSrjocloLBn4wljeDzUnMV1lAqbBej0ir~2TOrumoQzZ7w__`})`,
     height: "45rem",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
@@ -21,7 +21,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
   return (
     <>
-      <div style={BgStyle}>
+      <div style={BgStyle} className="navbar_container">
         <nav className="bg-cover bg-center">
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex justify-between h-16 items-center">
@@ -37,14 +37,14 @@ import { FaBars, FaTimes } from "react-icons/fa";
                   )}
                 </button>
 
-                <div className="flex items-center mt-20">
-                  <img className="w-13" src={logo} alt="Saviour Logo" />
-                  <span className="text-white text-lg font-zlogo mr-2 -mt-10">
+                <div className="flex items-center ">
+                  <img className="nav_logo w-13" src={logo} alt="Saviour Logo" />
+                  <span className="sviour_text text-white text-lg font-zlogo ">
                     Saviour
                   </span>
                 </div>
               </div>
-              <div className="  hidden md:flex md:items-center md:space-x-5 flex-grow justify-center bg-black  mt-10 rounded-full font-2xl">
+              <div className="navbar_links ">
                 <Link
                   to="/home"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-zcool"
@@ -115,7 +115,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
             <div className="px-2 pt-2 pb-3 sm:px-3"></div>
           </div>
         </nav>
-        <div className="flex justify-center items-center">
+        <div className="nav_main_text flex justify-center items-center">
           <h1 className="text-center text-2xl lg:text-4xl text-white font-Shojumaru leading-tight lg:leading-tight lg:mb-4 sm:mt-10 sm:shadow-lg lg:shadow-none lg:mt-96 mt-20">
             WHERE BLOCKCHAIN HEROES THRIVE, RESCUING
             <span className="block font-normal">
@@ -123,7 +123,10 @@ import { FaBars, FaTimes } from "react-icons/fa";
             </span>
           </h1>
         </div>
+        
       </div>
+
+      
     </>
   );
 };

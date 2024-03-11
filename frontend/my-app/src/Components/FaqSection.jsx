@@ -50,7 +50,7 @@ import { IoIosArrowDown } from "react-icons/io";
                 <span className="ml-5 font-2xl">
                   WHEN CAN WE CLAIM THE TOKENS?
                 </span>
-                <IoIosArrowDown className="ml-5 font-Shojumaru text-4xl" />
+                <IoIosArrowDown className="ml-5 font-Shojumaru text-4xl ml-584" />
               </p>
             </div>
           </div>
