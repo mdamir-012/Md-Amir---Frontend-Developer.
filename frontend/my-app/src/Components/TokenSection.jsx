@@ -4,6 +4,7 @@ import tokeCard1 from "../assets/roadmapCard1.png";
 import tokenCard2 from "../assets/roadmapCard2.png";
 import tokenCard3 from "../assets/roadmapCard3.png";
 import tokenCard4 from "../assets/roadmapCard4.png";
+import roadmapBg from "../assets/roadmap_bg.png"
 import "../styles/tokenomics.css";
 
 const TokenSection = () => {
@@ -14,6 +15,7 @@ const TokenSection = () => {
   };
 
   const RoadmapBg_style = {
+    backgroundImage: `url(${roadmapBg})`,
     backgroundSize: "cover",
     backgroundColor: "black",
     backgroundRepeat: "no-repeat",
@@ -30,7 +32,7 @@ const TokenSection = () => {
         </h1>
 
         <div className="lg:flex justify-center mx-auto mt-5 flex-col md:flex-row">
-          {/* First div with token details */}
+          {/* First div token details */}
           <div className="relative flex flex-col items-center justify-center mt-10 w-full md:w-auto md:mr-5">
             <div className="absolute lg:top-5 -top-10 font-Shojumaru text-white bg-heading mb-4 p-5 rounded-full">
               TOKEN DETAILS
@@ -57,14 +59,14 @@ const TokenSection = () => {
             </div>
           </div>
 
-          {/* Second div with image */}
+          
           <div className="flex justify-center items-center w-full md:w-auto md:ml-5 mt-5 md:mt-0">
             <img src={sideLogo} alt="" />
           </div>
         </div>
       </div>
 
-      {/* For large screens */}
+      {/* For lg screens */}
       <div
         style={RoadmapBg_style}
         className="roadmap_container hidden sm:block p-5"
@@ -81,7 +83,7 @@ const TokenSection = () => {
         </div>
       </div>
 
-      {/* For small screens */}
+      {/* small screen */}
       <div
         className="sm:hidden justify-center items-center"
         style={RoadmapBg_style}

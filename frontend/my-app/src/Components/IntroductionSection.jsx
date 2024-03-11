@@ -8,7 +8,7 @@ import { IoIosArrowDown } from "react-icons/io";
     <>
 
       <div className="flex flex-col lg:flex-row items-center justify-center bg-black  px-4 space-between ">
-        <div className="text-white lg:ml-40 lg:order-1 order-2 lg:w-1/2">
+        <div className="text-white lg:ml-40 lg:order-1  order-2 lg:w-1/2">
           <h1 className="font-Shojumaru text-heading lg:text-5xl mt-10 text-center lg:text-left sm:text-4xl ">
             INTRODUCTION
           </h1>
@@ -25,8 +25,8 @@ import { IoIosArrowDown } from "react-icons/io";
             <span className="text-gray-500">read more ...</span>
           </div>
 
-          <div className="flex mt-10 lg:order-3 order-3 justify-center lg:justify-start">
-            <button className="bg-gradient-button p-3 rounded-full flex items-center">
+          <div className="flex  mt-10 lg:order-3 order-3 justify-center lg:justify-start mb-4 sm:mb-0">
+            <button className="bg-gradient-button  p-3 rounded-[18px] flex items-center">
               <h1 className="font-zcool">Documents</h1>
               <IoIosArrowDown className="ml-2" />
             </button>

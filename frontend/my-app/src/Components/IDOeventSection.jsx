@@ -4,18 +4,18 @@ import "../styles/idoevent.css";
 
  const IDOeventSection = () => {
   const Ido_style = {
-    // backgroundImage: `url(${`https://s3-alpha-sig.figma.com/img/b6b9/0f7f/8e9b3d8d12c20152d7f3a9b31de44fe8?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ehOUdXbWis3shbKtgpPUpGm0Q03Rlmg-PABTo7iiqQDcRad1FUOfTQjO-LFU~0b1nFdD1oO2BxakmjcORt9ASLc7szCErNMaz1evXLtDAV-hsfdOxY5RirkMOX6HXgggeJNAAyjlcVvmyHwQyD~MJ~KzK2-uKO6tzhXBl7HVwS6hYRjRzgGS2E1~g8D8S6-7ElrZl14llvPbn0fHbTEYUAauw8QVHTea3jDwuRD1jxdGdU~R7PHPzMEPmIW79x1U~UFXNJQfub-UiQ-JI~jhMQnySPAZoy3Oeg0h5raXhhGIkiAnXyWaGdvgmjXc~Mvdozo5D2Ke~DIm9KoKgO8YNQ__`})`,
-    // height: "50rem",
+    width: "100%",
     backgroundColor:"black",
     backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
+    
+    
   };
 
   return (
     <>
       <div className="ido_container bg-black" style={Ido_style}>
-        <div className="">
-          <div className="font-Shojumaru text-heading text-2xl text-center relative w-823 h-54 left-1/2 transform -translate-x-1/2 top-1272  font-normal text-4xl leading-54 text-center text-red-600">
+        <div className="pb-10 pt-10">
+          <div className="font-Shojumaru text-heading text-2xl text-center">
             <h1>Participate in our IDO Event!</h1>
           </div>
 
@@ -24,7 +24,7 @@ import "../styles/idoevent.css";
               
               <div className="lg:w-1/2 sm:w-full">
                 <div className="flex justify-center mt-10">
-                  <div className="font-zcool text-white text-center w-3/4">
+                  <div className="font-zcool text-white text-center width-539">
                     During our IDo event, you will gain early access to our
                     revolutionary ecosystem, designed to empower everyone to
                     share wealth and achieve success.
@@ -32,10 +32,10 @@ import "../styles/idoevent.css";
                 </div>
 
                 <div className="relative flex flex-col items-center justify-center mt-10">
-                  <div className="absolute -top-10 font-Shojumaru text-white bg-heading mb-4 p-5 rounded-full">
+                  <div className="absolute -top-10 font-Shojumaru text-white bg-heading mb-4 p-5  rounded-[20px]">
                     TOKEN INFO
                   </div>
-                  <div className="text-white border border-2 border-BorderColor p-9 rounded-md bg-CardBackground">
+                  <div className="text-white  border-2 border-BorderColor p-9 rounded-md bg-CardBackground">
                     <p className="mb-2 font-zcool">
                       Total Token Supply{" "}
                       <span className="text-heading ml-10 font-zcool">20%</span>
@@ -94,16 +94,16 @@ import "../styles/idoevent.css";
               <div className="lg:w-1/3 sm:w-full mt-10">
                 <div className="relative">
                   <div className="absolute -top-10 left-0 right-0 flex justify-center">
-                    <div className="text-white border border-2 border-BorderColor p-3 text-5xl font-bold">
+                    <div className="text-white  border-2 border-BorderColor p-3 text-5xl font-bold">
                       0
                     </div>
-                    <div className="text-white border border-2 border-BorderColor p-3 text-5xl font-bold">
+                    <div className="text-white  border-2 border-BorderColor p-3 text-5xl font-bold">
                       0
                     </div>
-                    <div className="text-white border border-2 border-BorderColor p-3 text-5xl font-bold">
+                    <div className="text-white  border-2 border-BorderColor p-3 text-5xl font-bold">
                       0
                     </div>
-                    <div className="text-white border border-2 border-BorderColor p-3 text-5xl font-bold">
+                    <div className="text-white  border-2 border-BorderColor p-3 text-5xl font-bold">
                       0
                     </div>
                   </div>
