@@ -13,7 +13,6 @@ import { IoIosArrowDown } from "react-icons/io";
         <div>
           <div className="flex flex-col">
             <h1 className="font-Shojumaru text-heading text-3xl text-center">
-              {" "}
               FAQ
             </h1>
             <div className="flex  mt-5 border border-2 border-BorderColor px-10 py-3 rounded-md ">
