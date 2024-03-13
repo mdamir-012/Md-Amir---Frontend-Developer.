@@ -11,7 +11,7 @@ Navigate to the project's root directory in your terminal.
 
 ```bash
 npm install
-npm run destart
+npm run start
 ```
 
 Now you can visit the webpage at [http://localhost:3000](http://localhost:3000)
@@ -33,4 +33,4 @@ Now you can visit the webpage at [http://localhost:3000](http://localhost:3000)
 
 
 ## Demo Video:
-- [Preview](https://drive.google.com/file/d/12wzyBRhlkH7RZBACEsDxRYBNjIpzM21e/view?usp=sharing)
+- [Preview](https://drive.google.com/file/d/1643ia9-8BHlG5cH_v1deUygbz_gz13SV/view?usp=sharing)
